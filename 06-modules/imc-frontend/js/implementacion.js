@@ -1,4 +1,4 @@
-import people from './data.js'
+import people from './data.js';
 import { calcularImc, diagnosticar } from './actions.js';
 
 // Calcular el IMC de una lista de personas, y mostrar un mensaje indicando si están por debajo del peso, con peso normal, con sobrepeso o con obesidad.
