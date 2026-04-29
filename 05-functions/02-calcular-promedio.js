@@ -9,9 +9,9 @@ function calcularPromedio( total, cantidadNotas ) {
 function sumarNotas ( listaNotas ) {
     let sumaNotas = 0;
     
-    for( let nota of listaNotas ) {
+    for( let i = 0; i < listaNotas.length; i++ ) {
         // console.log( nota );
-        sumaNotas = sumaNotas + nota;
+        sumaNotas = sumaNotas + listaNotas[i];
     }
 
     return sumaNotas;  // Una funcion solo puede retornar un valor
